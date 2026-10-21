@@ -84,6 +84,10 @@ To integrate the Python AI pipeline into a structured web application, **Module 
 
 ---
 
+💡 Note for Recruiters/Reviewers: This is a Showcase Repository. To protect intellectual property, the core logic and proprietary prompts inside the notebooks have been abstracted or stubbed out. The repository contains the full architectural design, domain diagrams, and execution outputs to demonstrate code quality, project structure, and technical proficiency.
+
+---
+
 ## 🔒 License & Copyright
 
 **Copyright © 2026 Stefano Liberati. All Rights Reserved.**
