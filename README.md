@@ -66,7 +66,7 @@ Instead of feeding a 2-hour transcript into a single prompt, data is processed e
 
 To integrate the Python AI pipeline into a structured web application, **Module 5** focuses on **Software Analysis and Design (Analisi e Progettazione del Software)** using **Java & Spring Boot**:
 * **UML Modeling & Layered Architecture:** Designed starting from formal functional/non-functional requirements and **UML diagrams** (Use Case, Class, Sequence, and Statechart diagrams), enforcing a clean separation between `Controller`, `Service`, `Repository` (Spring Data JPA), and `DTO` layers.
-* ![Diagramma di Dominio](Domain_model_for_spring_boot_web_site.jpeg)
+* ![Domain model](docs/Domain_model_for_spring_boot_web_site.jpeg)
 * **Fundamental Design Patterns:** Practical implementation of core software engineering patterns to keep the codebase maintainable and decoupled:
   * **State Pattern:** Manages the lifecycle of lecture processing jobs (`PENDING` $\rightarrow$ `SYNCING_SLIDES` $\rightarrow$ `GENERATING_LATEX` $\rightarrow$ `COMPLETED` / `FAILED`).
   * **Strategy Pattern:** Allows interchangeable synchronization or transcription policies.
